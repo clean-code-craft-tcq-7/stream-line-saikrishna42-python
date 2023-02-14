@@ -1,9 +1,9 @@
-#define CATCH_CONFIG_MAIN  // This tells Catch to provide a main() - only do this in one cpp file
+
 #include"BMSParameter_DataGen.hpp"
 #include "test/catch.hpp"
 #include <sstream>
 #include <iostream>
-#include <string>
+
 
 
 TEST_CASE("soc 50 data")
