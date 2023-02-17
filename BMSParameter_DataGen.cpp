@@ -1,41 +1,20 @@
 #include "BMSParameter_DataGen.hpp"
 
-void SOC::gen_socData(float incr)
+void Data::gen_Data(float incr)
 {
     float j=0;
     for(int i=0;i<50;i++)
     {
         j+=incr;
-        soc[i]=j;
+        Data[i]=j;
         
     }
 }
 
-void SOC::send_socData_2cmd()
+void Data::send_Data_2cmd()
 {
      for(int i=0;i<50;i++)
     {
-        cout<<soc[i]<<" ";
+        cout<<Data[i]<<" ";
     }
 }
-
-
-void ChargingRate::gen_chargingRateData(float incr)
-{
-    float j=0;
-    for(int i=0;i<50;i++)
-    {
-        j+=incr;
-        chargingRate[i]=j;
-        
-    }
-}
-
-void ChargingRate::send_chargingRateData_2cmd()
-{
-     for(int i=0;i<50;i++)
-    {
-        cout<<chargingRate[i]<<" ";
-    }
-}
-

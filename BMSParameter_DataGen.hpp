@@ -2,21 +2,13 @@
 
 using namespace std;
 
-class SOC
+class Data
 {
     private:
-        float soc[50];
+        float Data[50];
     public:
-        void gen_socData(float);
-        void send_socData_2cmd();
+        void gen_Data(float);
+        void send_Data_2cmd();
 };
 
 
-class ChargingRate
-{
-    private:
-        float chargingRate[50];
-    public:
-        void gen_chargingRateData(float);
-        void send_chargingRateData_2cmd();
-};
