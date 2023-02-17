@@ -1,0 +1,24 @@
+Requirement:
+
+ Sender:
+    - simulates and sends at least two Battery / Charging parameters
+    - sends fifty readings in a stream
+    - can either generate values for the parameters, or read from a file
+    - uses console output to communicate the parameters.
+
+Breakdown:
+    1. Battery parameters
+        1.1 SOC - State Of Charge.
+        1.2 Charge Rate.
+    
+    2.Define the class for Data
+        -class contains 1 private 50 data float variable
+        -2 public member function
+            -generating the 50 data points. values will be start from increment value and keep on adding passed by function.
+            -send function to copy the data to cmd line.define 
+    3.Send file:- 
+        sending the soc data with increment of 1.
+        sending the charge data with increment of 0.1.
+    Test :- 
+       tc1:- checking the  data with increment of 1 
+      
