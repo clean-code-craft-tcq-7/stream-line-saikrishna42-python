@@ -2,6 +2,8 @@
 
 using namespace std;
 
+void Send();
+
 class Data
 {
     private:

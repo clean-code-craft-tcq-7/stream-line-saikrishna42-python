@@ -1,6 +1,6 @@
 #include "BMSParameter_DataGen.hpp"
-/*
-int main()
+
+void Send()
 {
     Data soc_data;
     Data cr_data;
@@ -13,4 +13,4 @@ int main()
     cout<<"ChargingRate : ";
     cr_data.send_Data_2cmd();
     cout<<endl;  
-}*/
+}
