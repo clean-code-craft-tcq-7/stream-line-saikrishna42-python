@@ -1,6 +1,6 @@
 
+#include "catch.hpp"
 #include"BMSParameter_DataGen.hpp"
-
 #include <sstream>
 #include <iostream>
 #include <string>
